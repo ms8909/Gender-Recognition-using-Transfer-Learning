@@ -170,5 +170,5 @@ class s3fd(nn.Module):
         m = f7_2.view(1,-1)
         #print(m)
         op = self.fc_1(m)
-        return [cls2,gen2,cls3,gen3,cls4,gen4,cls5,gen5]
+        return [cls2,ge2,cls3,ge3,cls4,ge4,cls5,ge5]
 
